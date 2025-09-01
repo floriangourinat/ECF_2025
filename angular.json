@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ecf-2025": {
+    "ecf-temp": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ecf-2025:build:production"
+              "buildTarget": "ecf-temp:build:production"
             },
             "development": {
-              "buildTarget": "ecf-2025:build:development"
+              "buildTarget": "ecf-temp:build:development"
             }
           },
           "defaultConfiguration": "development"
